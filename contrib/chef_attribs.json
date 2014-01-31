@@ -1,5 +1,9 @@
 {
+  "elastic_chef": {
+    "server": "192.168.6.4:9200"
+  },
   "run_list": [
+    "recipe[elastic_chef::default]",
     "recipe[dumb::default]"
   ]
 }

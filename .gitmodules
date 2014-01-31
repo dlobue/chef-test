@@ -1,0 +1,3 @@
+[submodule "cookbooks/elastic_chef"]
+	path = cookbooks/elastic_chef
+	url = git://github.com/dlobue/elastic_chef.git
