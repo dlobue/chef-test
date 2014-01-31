@@ -1,6 +1,8 @@
 
 require 'pathname'
 
+Chef::Config[:elasticsearch] = {:url => "192.168.6.4:9200"}
+
 Chef::Config[:git_repo] = "git://github.com/dlobue/chef-test.git"
 Chef::Config[:git_branch] = "master"
 
