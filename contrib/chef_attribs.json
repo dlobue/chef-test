@@ -1,8 +1,5 @@
 {
   "run_list": [
-    "recipe[apt::aptmain]",
-    "recipe[apt::aptsite]",
-    "recipe[misc::pry]"
-  ],
-  "_run_list": ["recipe[misc::other]", "recipe[misc::default]"]
+    "recipe[dumb::default]"
+  ]
 }

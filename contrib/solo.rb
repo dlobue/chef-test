@@ -19,3 +19,5 @@ file_backup_path "#{Chef::Config[:work_dir]}/backup"
 cache_options({ :path => "#{Chef::Config[:work_dir]}/cache/checksums", :skip_expires => true })
 Chef::Log::Formatter.show_time = true
 
+require (contrib_dir.parent + 'bootstrap' + 'git_pull_cookbooks').to_s
+
