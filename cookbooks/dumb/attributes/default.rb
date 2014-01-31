@@ -1,3 +1,3 @@
 
-default.dumb.content = "BLAH"
+default.dumb.content = "HONK"
 
